@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<meta content="緊急支援人力會員店數獎金制度：每月成功支援不同店舖數、獎金級距、領取條件與發放時間。" name="description"/>
+<meta content="light" name="color-scheme"/>
+<title>會員店數獎金制度｜緊急支援人力</title>
+<style>
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.75}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;background:#fff;padding:42px 48px 52px;border:1px solid #e3e8ee;box-shadow:0 6px 20px rgba(0,0,0,.04)}
+.main-title{font-size:32px;font-weight:800;text-align:center;line-height:1.4;margin:8px 0 30px;color:var(--blue-dark);letter-spacing:.5px}
+.main-title .eyebrow{display:block;font-size:20px;font-weight:700;margin-bottom:6px;letter-spacing:2px}
+.main-title .title-text{display:block}
+h2{margin:38px 0 16px;padding-bottom:8px;border-bottom:2px solid var(--blue);color:var(--blue-dark);font-size:24px;line-height:1.4}
+p{margin:0 0 14px;font-size:16px;font-weight:400}
+strong{font-weight:700}
+.intro{margin-bottom:0}
+.note{color:#465467;font-size:15px}
+.table-wrap{width:100%;margin:12px 0 18px}
+table{width:100%;border-collapse:collapse;background:#fff;table-layout:fixed;font-size:16px}
+th,td{border:1px solid var(--line);padding:11px 14px;vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:normal}
+th{background:var(--header);font-weight:700;color:#173b5f}
+th[scope="row"]{background:#f4f8fc;font-weight:700}
+.reward-table th:first-child{width:64%}
+.reward-table th:last-child,.reward-table td:last-child{text-align:center}
+.reward-table .amount{font-size:24px;font-weight:800;color:var(--blue-dark);white-space:nowrap;font-variant-numeric:tabular-nums}
+.reward-table .unit{font-size:15px;margin-left:4px;font-weight:400}
+.count-table th:first-child{width:64%}
+.count-table th:last-child,.count-table td:last-child{text-align:center}
+.count{color:var(--blue-dark);font-size:20px;font-weight:700;white-space:nowrap}
+.callout{background:#eff6fb;border-left:4px solid var(--blue);padding:15px 18px;margin:18px 0}
+.callout p:last-child{margin-bottom:0}
+.callout strong{color:var(--blue-dark)}
+.conditions th:first-child{width:23%}
+.conditions td{line-height:1.8}
+.info-box{margin:18px 0 0;border:1px solid #cddbe7;border-radius:7px;overflow:hidden}
+.info-title{margin:0;padding:12px 16px;background:#f4f8fc;color:var(--blue-dark);font-size:16px;font-weight:700;line-height:1.6}
+.info-body{padding:16px 18px}
+.info-body p:last-child{margin-bottom:0}
+.formula{font-size:20px;font-weight:700;color:var(--blue-dark);letter-spacing:.3px}
+.payment-example{margin:18px 0;padding:17px 19px;border:1px solid #c5d9e9;border-radius:7px;background:#f6faff}
+.payment-example .label{color:var(--blue);font-size:14px;font-weight:700;margin-bottom:6px}
+.payment-example p:last-child{margin-bottom:0}
+.footer{margin-top:38px;padding-top:22px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px;color:#465467}
+.signature{text-align:right;font-weight:700!important;margin:20px 0 0!important;color:#465467}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:clamp(24px,6.5vw,28px);margin-bottom:24px;letter-spacing:0}
+ .main-title .eyebrow{font-size:17px;letter-spacing:1.5px}
+ h2{font-size:21px;margin-top:32px}
+ p,table,th,td,.info-title{font-size:14px}
+ th,td{padding:9px 8px;line-height:1.6}
+ .reward-table .amount{font-size:22px}
+ .reward-table .unit{font-size:14px}
+ .count{font-size:19px}
+ .note,.footer p{font-size:14px}
+ .conditions th:first-child{width:26%}
+ .callout{padding:13px 14px}
+ .info-title{padding:11px 13px}
+ .info-body{padding:14px}
+ .formula{font-size:18px;letter-spacing:0}
+ .payment-example{padding:14px}
+ .footer{margin-top:30px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+@media print{
+ body{background:#fff}
+ main{width:100%;margin:0;padding:0;border:0;box-shadow:none}
+ h2{break-after:avoid}
+ table,.callout,.payment-example,.info-box{break-inside:avoid}
+}
+
+/* 五份統一：回到四份原始網頁一致的等大雙行標題；只影響主標題。 */
+.main-title{font-size:32px!important;font-weight:800!important;line-height:1.4!important;letter-spacing:.5px!important;text-align:center!important;margin:8px 0 30px!important}
+.main-title .title-text{display:block!important;font-size:inherit!important;line-height:inherit!important;font-weight:inherit!important}
+@media(max-width:760px){.main-title{font-size:clamp(24px,6.5vw,28px)!important;margin:8px 0 24px!important;letter-spacing:0!important}}
+@media(max-width:360px){.main-title{font-size:24px!important}}
+</style>
+<style data-design-system="unified-five-pages">
+/* 五份制度網站共用視覺規範；不修改原始制度內容 */
+:root{--text:#1f2937;--muted:#667085;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#aeb8c2;--bg:#f5f7fa}
+body{font-family:"Noto Sans TC","Microsoft JhengHei","PingFang TC",Arial,sans-serif;line-height:1.78;color:var(--text);background:var(--bg)}
+main{width:min(1100px,calc(100% - 28px));margin:28px auto 48px;padding:42px 48px 52px;background:#fff}
+.main-title{font-size:34px!important;line-height:1.38!important;font-weight:800!important;letter-spacing:.3px!important;margin:4px 0 28px!important;text-align:center;color:var(--blue-dark)}
+.main-title .eyebrow{display:block;font-size:18px!important;line-height:1.5!important;font-weight:700!important;letter-spacing:1px!important;margin:0 0 6px!important}
+.main-title .title-text{display:block}
+h2{font-size:23px!important;line-height:1.45!important;font-weight:750!important;margin:35px 0 16px!important;padding-bottom:9px!important;border-bottom:2px solid var(--blue)}
+h3,.info-title{font-size:17px!important;line-height:1.55!important;font-weight:700!important}
+p,.intro{font-size:16px!important;line-height:1.85!important}
+.note,.small-note,.flow-caption{font-size:15px!important;line-height:1.75!important}
+.table-wrap{width:100%;max-width:100%;overflow-x:auto;overflow-y:hidden;margin:12px 0 18px}
+table,th,td{font-size:16px!important;line-height:1.7!important}
+table{border-collapse:collapse;width:100%;table-layout:fixed;background:#fff}
+th,td{padding:11px 13px!important;border:1px solid var(--line);vertical-align:middle}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:700!important}
+tbody th[scope="row"],tbody th{background:#fff!important;color:var(--text)!important;font-weight:700!important}
+tbody td{background:#fff!important}
+.amount,.kpi-table .amount,.reward-table .amount,.count{font-size:20px!important;font-weight:700!important;color:var(--blue-dark)!important;font-variant-numeric:tabular-nums}
+.amount .unit,.kpi-table .unit,.reward-table .unit{font-size:15px!important;font-weight:400!important}
+.formula{font-size:19px!important;font-weight:700!important;line-height:1.6!important}
+.info-title{padding:12px 16px!important}
+.callout p,.info-body p,.payment-example p,.process-step p{font-size:16px!important;line-height:1.78!important}
+.footer{margin-top:37px;padding-top:21px;border-top:1px solid #d9e2eb}
+.footer p{font-size:15px!important;line-height:1.8!important}
+.footer .contact-phone{color:var(--blue-dark);font-weight:700;text-decoration:underline;white-space:nowrap}
+.footer .signature{font-weight:700!important;text-align:right}
+@media(max-width:760px){
+ main{width:100%;margin:0;padding:26px 16px 38px;border:0;box-shadow:none}
+ .main-title{font-size:27px!important;line-height:1.4!important;margin:0 0 25px!important}
+ .main-title .eyebrow{font-size:16px!important;letter-spacing:.7px!important;margin-bottom:6px!important}
+ h2{font-size:20px!important;line-height:1.5!important;margin:30px 0 14px!important;padding-bottom:8px!important}
+ h3,.info-title{font-size:16px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.8!important}
+ .note,.small-note,.flow-caption,.footer p{font-size:14px!important}
+ table,th,td{font-size:14px!important;line-height:1.65!important}
+ th,td{padding:9px 8px!important}
+ .amount,.kpi-table .amount,.reward-table .amount,.count{font-size:18px!important}
+ .amount .unit,.kpi-table .unit,.reward-table .unit{font-size:13px!important}
+ .formula{font-size:17px!important}
+ .info-title{padding:11px 13px!important}
+ .footer{margin-top:30px}
+}
+@media(max-width:360px){main{padding-left:13px;padding-right:13px} .main-title{font-size:25px!important} th,td{padding:8px 6px!important}}
+@media print{body{background:#fff} main{width:100%;margin:0;padding:0;border:0;box-shadow:none}}
+</style><style data-design-system="compact-consistent-v3">
+/* 五份網頁共同視覺規範 v3: 精簡、緊湊、只強調關鍵資訊 */
+:root{--text:#243244;--muted:#617083;--blue:#1f5d8f;--blue-dark:#174a72;--header:#dcecf7;--line:#b7c6d4;--bg:#f5f7fa}
+body{line-height:1.6!important}
+main{width:min(960px,calc(100% - 28px))!important;margin:18px auto 28px!important;padding:30px 36px 34px!important;border:1px solid #e3e8ee!important;box-shadow:0 3px 12px rgba(0,0,0,.035)!important}
+main header{margin:0 0 19px!important}
+.main-title{font-size:30px!important;font-weight:750!important;line-height:1.35!important;letter-spacing:0!important;margin:0 0 13px!important;color:var(--blue-dark)!important}
+.main-title .eyebrow,.main-title .title-text{font-size:inherit!important;letter-spacing:0!important;line-height:inherit!important;font-weight:inherit!important;margin:0!important}
+.main-title .eyebrow{display:block!important}
+.main-title .title-text{display:block!important}
+section{margin:0!important;padding:0!important}
+h2{font-size:20px!important;font-weight:700!important;line-height:1.45!important;margin:23px 0 10px!important;padding:0 0 7px!important;border-bottom:2px solid var(--blue)!important}
+h3,.info-title{font-size:15px!important;font-weight:650!important;line-height:1.55!important}
+p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:15px!important;line-height:1.65!important;font-weight:400!important;margin:0 0 8px!important}
+strong,b{font-weight:600!important}
+.note,.small-note,.flow-caption{font-size:13.5px!important;line-height:1.6!important;margin:6px 0 9px!important;color:#526174!important}
+.table-wrap{margin:8px 0 10px!important;overflow-x:auto!important;overflow-y:hidden!important}
+table{font-size:14px!important;line-height:1.5!important;background:#fff!important}
+th,td{font-size:14px!important;line-height:1.5!important;padding:8px 11px!important;vertical-align:middle!important;border:1px solid var(--line)!important}
+thead th{background:var(--header)!important;color:#173b5f!important;font-weight:650!important}
+tbody td,tbody th,th[scope=row]{background:#fff!important;color:var(--text)!important;font-weight:400!important}
+tbody th[scope=row]{font-weight:600!important}
+.reward-table .amount,.kpi-table .amount,.amount,.count{font-size:17px!important;font-weight:650!important;color:var(--blue-dark)!important;white-space:nowrap!important}
+.reward-table .unit,.kpi-table .unit,.unit{font-size:13px!important;font-weight:400!important}
+.formula{font-size:17px!important;font-weight:650!important;line-height:1.5!important;letter-spacing:0!important}
+.callout{margin:10px 0 12px!important;padding:10px 13px!important}
+.callout p:last-child,.info-body p:last-child,.payment-example p:last-child{margin-bottom:0!important}
+.info-box{margin:11px 0 12px!important;border-radius:5px!important}
+.info-title{padding:9px 12px!important;margin:0!important}
+.info-body{padding:10px 12px!important}
+.payment-example{margin:10px 0!important;padding:11px 13px!important}
+.payment-example .label{font-size:12px!important;margin:0 0 4px!important;font-weight:650!important}
+.level-flow{margin:10px 0 8px!important;gap:5px!important}
+.level-pill{padding:8px 7px!important;font-weight:600!important}
+.flow-caption{margin:5px 0 7px!important}
+.grade-table td{line-height:1.6!important}
+.process-grid{margin:9px 0!important;gap:9px!important}
+.process-step{padding:10px 12px!important}
+.process-step p{font-size:14px!important;margin:3px 0 0!important}
+.footer{margin:23px 0 0!important;padding:14px 0 0!important;border-top:1px solid #d9e2eb!important}
+.footer p{font-size:13.5px!important;line-height:1.65!important;margin:0 0 6px!important;color:#526174!important}
+.footer .signature{font-size:13.5px!important;font-weight:600!important;margin:10px 0 0!important}
+.footer a[href^="tel:"]{color:var(--blue-dark)!important;font-weight:650!important;text-decoration:underline!important;white-space:nowrap!important}
+@media(max-width:760px){
+ main{width:100%!important;margin:0!important;padding:22px 15px 27px!important;border:0!important;box-shadow:none!important}
+ main header{margin-bottom:16px!important}
+ .main-title{font-size:25px!important;line-height:1.36!important;margin:0 0 11px!important}
+ h2{font-size:18px!important;margin:21px 0 9px!important;padding-bottom:6px!important}
+ p,.intro,.callout p,.info-body p,.payment-example p,.process-step p{font-size:14px!important;line-height:1.6!important;margin-bottom:7px!important}
+ .note,.small-note,.flow-caption{font-size:12.5px!important}
+ table,th,td{font-size:13px!important;line-height:1.48!important}
+ th,td{padding:7px 7px!important}
+ .conditions th:first-child{width:28%!important}
+ .reward-table .amount,.kpi-table .amount,.amount,.count{font-size:16px!important}
+ .reward-table .unit,.kpi-table .unit,.unit{font-size:12px!important}
+ h3,.info-title{font-size:14px!important}
+ .formula{font-size:15px!important}
+ .level-flow{gap:4px!important}
+ .level-pill{padding:7px 2px!important;font-size:12px!important}
+ .level-arrow{font-size:12px!important}
+ .footer p,.footer .signature{font-size:12.5px!important}
+}
+@media(max-width:360px){main{padding-left:12px!important;padding-right:12px!important}.main-title{font-size:23px!important}table,th,td{font-size:12.5px!important}th,td{padding:6px 5px!important}}
+@media print{main{width:100%!important;padding:0!important;margin:0!important;border:0!important;box-shadow:none!important}}
+</style></head>
+<body>
+<main>
+<header>
+<h1 class="main-title"><span class="title-text">緊急支援人力<br/>會員店數獎金制度</span></h1>
+<p class="intro">會員每月成功支援達指定的不同店舖數，且符合出勤與服務規定，即可領取對應的店數獎金。以下說明獎金金額、店數計算方式及發放時間。</p>
+</header>
+<section aria-labelledby="tiers-title">
+<h2 id="tiers-title">一、每月店數獎金</h2>
+<p>依<strong>當月累計成功支援的不同店舖數</strong>，按達成的最高級距發放。</p>
+<div class="table-wrap">
+<table aria-label="每月成功支援店數與獎金對照" class="reward-table">
+<thead><tr><th scope="col">當月成功支援店數</th><th scope="col">獎金金額</th></tr></thead>
+<tbody>
+<tr><td><strong>3 店以上</strong>、未滿 5 店</td><td><span class="amount" style="font-weight:400;">200<span class="unit">元</span></span></td></tr>
+<tr><td><strong>5 店以上</strong>、未滿 8 店</td><td><span class="amount" style="font-weight:400;">300<span class="unit">元</span></span></td></tr>
+<tr><td><strong>8 店以上</strong></td><td><span class="amount" style="font-weight:400;">500<span class="unit">元</span></span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">未滿 3 店不發放店數獎金。各級距不重複累加，每月最高可領 500 元。</p>
+</section>
+<section aria-labelledby="count-title">
+<h2 id="count-title">二、成功支援店數怎麼算？</h2>
+<p>須於支援日到店完成支援，且<strong>沒有遲到、早退</strong>。店數依<strong>完成支援的職缺所屬店舖</strong>計算，每月同一間店舖不論完成幾筆職缺支援，都只計為 <strong>1 店</strong>，不受支援時數長短影響。</p>
+<div class="table-wrap">
+<table aria-label="完成支援的職缺與計入店數" class="count-table">
+<thead><tr><th scope="col">當月支援紀錄</th><th scope="col">計入店數</th></tr></thead>
+<tbody>
+<tr><td>同一間店舖完成 3 筆職缺支援</td><td><span class="count">1 店</span></td></tr>
+<tr><td>不同 3 間店舖各完成 1 筆職缺支援</td><td><span class="count">3 店</span></td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">店數獎金以當月支援過的不同店舖計算，並須符合下方的領取條件。</p>
+<div class="info-box">
+<h3 class="info-title">計算範例</h3>
+<div class="info-body">
+<p>當月在甲店完成 3 筆、乙店完成 2 筆、丙店完成 1 筆職缺支援，且均無遲到、早退：</p>
+<p class="formula">6 筆職缺支援、3 間不同店舖 ＝ 3 店</p>
+<p>當月累計成功支援 3 店，若符合獎金領取條件，可領取 <strong>200 元</strong>店數獎金。</p>
+</div>
+</div>
+</section>
+<section aria-labelledby="eligibility-title">
+<h2 id="eligibility-title">三、獎金領取條件</h2>
+<div class="callout">
+<p>當月有下列任一紀錄，將<strong>取消當月店數獎金</strong>。即使成功支援店數達領獎門檻，也無法領取。</p>
+</div>
+<div class="table-wrap">
+<table aria-label="取消當月店數獎金的情況" class="conditions">
+<thead><tr><th scope="col">紀錄類型</th><th scope="col">取消獎金的情況</th></tr></thead>
+<tbody>
+<tr><th scope="row">出勤紀錄</th><td>遲到、早退、一般請假、臨時請假、曠職。</td></tr>
+<tr><th scope="row">客訴紀錄</th><td>意見宅配或營業客訴。</td></tr>
+</tbody>
+</table>
+</div>
+<p class="note">若因天然災害、車禍等非人為因素請假，向招募中心提出相關證明後，<strong>仍以一般請假計算，會取消當月店數獎金</strong>。</p>
+</section>
+<section aria-labelledby="payment-title">
+<h2 id="payment-title">四、獎金何時發放？</h2>
+<p>店數獎金<strong>按月計算</strong>，於達成月份的<strong>次次月 8 日</strong>匯入會員提供的郵局帳戶。</p>
+<div class="payment-example">
+<p class="label">發放範例</p>
+<p>10 月份成功支援達 <strong>5 間不同店舖</strong>，且符合領取條件，即可於 <strong>12 月 8 日</strong>領取 <strong>300 元</strong>店數獎金。</p>
+</div>
+<p class="note">如遇假日，提前一個工作日發放。</p>
+<div class="info-box">
+<h3 class="info-title">採週薪制，店數獎金也會每週發放嗎？</h3>
+<div class="info-body">
+<p>店數獎金仍按月統計，於達成月份的<strong>次次月 8 日</strong>匯入郵局帳戶，週薪制的獎金發放時間相同。</p>
+</div>
+</div>
+<div class="info-box">
+<h3 class="info-title">覺得獎金金額不符，該怎麼確認？</h3>
+<div class="info-body">
+<p>請先對照<strong>前前月</strong>實際完成支援的不同店舖數，以及出勤、客訴紀錄。例如 12 月收到的店數獎金，對應的是 10 月的支援紀錄。</p>
+<p>若仍有疑問，請聯繫招募中心群組小編協助確認。</p>
+</div>
+</div>
+</section>
+<footer class="footer">
+<p>如對店數認定或獎金發放有疑問，請洽招募中心群組小編。 招募中心電話：<a class="contact-phone" href="tel:+886281816056">(02) 8181-6056</a></p>
+<p class="signature">招募中心 敬上</p>
+</footer>
+</main>
+</body>
+</html>
